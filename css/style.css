@@ -24,7 +24,7 @@
     margin-top: 20px;
     margin-bottom: 30px;
 }
-/* .pizza{ 
+.pizza{ 
     text-align: center;
     margin-left: 100px;
 }
@@ -46,7 +46,7 @@
 .column img{
     width: 250px;
     height: 200px;
-}
+/* }
 .column:hover .image{
     opacity: 0.5;
 }
