@@ -1,6 +1,9 @@
 .container{
     align-items: flex;
     flex-wrap: wrap;
+    font-family: monospace;
+    font-size: 14px;
+    font-weight: bold;
 }
 .intro{
     background-image: url(../images/backgrounds/intro.jpg);
@@ -66,4 +69,22 @@
 .text{
     border: 2px solid white;
     padding: 5px;
+}
+.order{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.order h3{
+    padding-top: 50px;
+    text-align: center;
+}
+.food{
+    padding-left: 50px;
+}
+.sizes{
+    padding-left: 250px;
+}
+.topping{
+    padding-left: 250px;
 }
