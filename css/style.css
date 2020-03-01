@@ -46,7 +46,7 @@
 .column img{
     width: 250px;
     height: 200px;
-/* }
+}
 .column:hover .image{
     opacity: 0.5;
 }
@@ -66,4 +66,4 @@
 .text{
     border: 2px solid white;
     padding: 5px;
-} */ 
+}
