@@ -11,7 +11,7 @@
     height: 764px;
     width: 650px;
     float: left;
-/* }
+}
 .info{
     width: 400px;
     float: left;
@@ -24,7 +24,7 @@
     margin-top: 20px;
     margin-bottom: 30px;
 }
-.pizza{
+/* .pizza{ 
     text-align: center;
     margin-left: 100px;
 }
@@ -66,4 +66,4 @@
 .text{
     border: 2px solid white;
     padding: 5px;
-} */
+} */ 
