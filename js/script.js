@@ -1,6 +1,11 @@
 function Contact(first, last) {
     this.firstName = first;
     this.lastName = last;
+    this.addresses = [];
+}
+function Address(area, estate) {
+    this.area = area;
+    this.estate = estate;
 }
 $(document).ready(function() {
     $("form#contact").submit(function(event) {
@@ -8,6 +13,8 @@ $(document).ready(function() {
   
       var inputtedFirstName = $("input#first-name").val();
       var inputtedLastName = $("input#last-name").val();
+      var inputtedArea = $("input#area").val();
+      var inputtedEstate = $("input#estate").val();
   
       var newContact = new Contact(inputtedFirstName, inputtedLastName);
       
