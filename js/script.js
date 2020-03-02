@@ -35,5 +35,7 @@ function Contact(first, last, estate, house) {
       $("input#new-estate").val("");
       $("input#new-house").val("");
 
+      alert("you've ordered for a pizza for delivery")
+
     });
   }); 
