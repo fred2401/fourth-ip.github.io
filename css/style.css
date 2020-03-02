@@ -94,15 +94,22 @@
    
 }
 .food{
-    padding-left: 150px;
-}
-.sizes{
     padding-left: 200px;
 }
+.sizes{
+    padding-left: 100px;
+}
 .topping{
-    padding-left: 250px;
-    margin-right: 200px;
+    padding-left: 100px;
+}
+.crust{
+    padding-left: 100px;
+    margin-right: 150px;
 }
 .submit{
     margin-left: 500px;
 }
+.delivery{
+    text-align: center;
+}
+
