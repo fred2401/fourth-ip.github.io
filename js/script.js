@@ -173,35 +173,35 @@ function data(){
         //small//
     if ((vegfeast.checked==true) & (small.checked==true) & (thin.checked==true)){
         alert("you've ordered a small veg feast with thin crust");
-        alert("the total is 2.5$")
+        alert("the total is 3.6$")
     }
     
     else if ((vegfeast.checked==true) & (small.checked==true) & (thick.checked==true)){
         alert("you've ordered a small veg feast with thick crust");
-        alert("the total is 2.5$")
+        alert("the total is 3.6$")
     }
         //medium//
     else if ((vegfeast.checked==true) & (medium.checked==true) & (thin.checked==true)){
         alert("you've ordered a medium veg feast with thin crust");
-        alert("the total is 2.5$")
+        alert("the total is 6.2$")
     }
     else if ((vegfeast.checked==true) & (medium.checked==true) & (thick.checked==true)){
         alert("you've ordered a medium veg feast with thick crust");
-        alert("the total is 2.5$")
+        alert("the total is 6.2$")
     }
         //large//
     else if ((vegfeast.checked==true) & (large.checked==true) & (thin.checked==true)){
         alert("you've ordered a large veg feast with thin crust");
-        alert("the total is 2.5$")
+        alert("the total is 9$")
     }
     else if ((vegfeast.checked==true) & (large.checked==true) & (thick.checked==true)){
         alert("you've ordered a large veg feast with thick crust");
-        alert("the total is 2.5$")
+        alert("the total is 9$")
     }
 
 
 
-    // // if not picked//
+    // if not picked//
     // else{
     //     alert("place an order")
     // }
