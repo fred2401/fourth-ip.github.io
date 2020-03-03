@@ -199,10 +199,8 @@ function data(){
         alert("the total is 9$")
     }
 
-
-
-    // if not picked//
-    // else{
-    //     alert("place an order")
-    // }
+        // if not picked//
+    else{
+        alert("place an order")
+    }
 }
