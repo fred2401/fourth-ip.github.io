@@ -144,29 +144,29 @@ function data(){
         //small//
     if ((BBQsteak.checked==true) & (small.checked==true) & (thin.checked==true)){
         alert("you've ordered a small BBQ steak with thin crust");
-        alert("the total is 2.5$")
+        alert("the total is 4$")
     }
     else if ((BBQsteak.checked==true) & (small.checked==true) & (thick.checked==true)){
         alert("you've ordered a small BBQ steak with thick crust");
-        alert("the total is 2.5$")
+        alert("the total is 4$")
     }
         //medium//
     else if ((BBQsteak.checked==true) & (medium.checked==true) & (thin.checked==true)){
         alert("you've ordered a medium BBQ steak with thin crust");
-        alert("the total is 2.5$")
+        alert("the total is 6$")
     }
     else if ((BBQsteak.checked==true) & (medium.checked==true) & (thick.checked==true)){
         alert("you've ordered a medium BBQ steak with thick crust");
-        alert("the total is 2.5$")
+        alert("the total is 6$")
     }
         //large//
     else if ((BBQsteak.checked==true) & (large.checked==true) & (thin.checked==true)){
         alert("you've ordered a large BBQ steak with thin crust");
-        alert("the total is 2.5$")
+        alert("the total is 8$")
     }
     else if ((BBQsteak.checked==true) & (large.checked==true) & (thick.checked==true)){
         alert("you've ordered a large BBQ steak with thick crust");
-        alert("the total is 2.5$")
+        alert("the total is 8$")
     }
 
         //veg-feast//
