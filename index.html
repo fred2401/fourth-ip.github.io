@@ -28,7 +28,7 @@
                             <div class="column">
                                 <img src="images/pizza/hawaiian.jpg"  class="image">
                                     <div class="hold">
-                                        <div class="text">hawaiian<br>sm=3$<br>md=5$<br>l=7$</div>
+                                        <div class="text">hawaiian</div>
                                     </div>
                             </div>
                         </div>
@@ -71,28 +71,40 @@
                 <form>
                     <div class="food">
                         <h4>Pizzas</h4>
-                            <div class="rdio-default">
-                                <label for="hawaiian">hawaiian</label>
-                                    <input type="radio" name="order" id="hawaiian"  value="hawaiian"><br>
-                            </div>
-                            <div class="rdio-default">
-                                <label for="regina">regina</label>
-                                    <input type="radio" name="order" id="regina"  value="regina"><br>
-                            </div>  
-                            <div class="rdio-default">
-                                <label for="boerewors">boerewors</label>
-                                    <input type="radio" name="order" id="boerewors"  value="boerewors"><br>
-                            </div>  
-                            <div class="rdio-default">
-                                <label for="BBQ steak">BBQ steak</label>
-                                    <input type="radio" name="order" id="BBQsteak"  value="BBQ steak"><br>
-                            </div>
-                            <div class="rdio-default">
-                                <label for="veg feast">veg feast</label>
-                                    <input type="radio" name="order" id="vegfeast"  value="veg feast">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="rdio-default">
+                                        <label for="hawaiian">hawaiian<span class="bg-success"><br>sm=3$<br>md=5$<br>l=7$</span></label>
+                                            <input type="radio" name="order" id="hawaiian"  value="hawaiian">
+                                    </div>
+                                </div>  
+                                <div class="col-md-3">  
+                                    <div class="rdio-default">
+                                        <label for="regina">regina<span class="bg-success"><br>sm=3$<br>md=5$<br>l=7$</span></label>
+                                            <input type="radio" name="order" id="regina"  value="regina">
+                                    </div>
+                                </div>  
+                                <div class="col-md-3">
+                                    <div class="rdio-default">
+                                        <label for="boerewors">boerewors<span class="bg-success"><br>sm=3$<br>md=5$<br>l=7$</span></label>
+                                            <input type="radio" name="order" id="boerewors"  value="boerewors">
+                                    </div>
+                                </div>  
+                                <div class="col-md-3">
+                                    <div class="rdio-default">
+                                        <label for="BBQ steak">BBQ steak<span class="bg-success"><br>sm=3$<br>md=5$<br>l=7$</span></label>
+                                            <input type="radio" name="order" id="BBQsteak"  value="BBQ steak">
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="rdio-default">
+                                        <label for="veg feast">veg feast<span class="bg-success"><br>sm=3$<br>md=5$<br>l=7$</span></label>
+                                            <input type="radio" name="order" id="vegfeast"  value="veg feast">
+                                    </div>
+                                </div>
                             </div>
                     </div>  
-                        
+                    <br>                        
                     <div class="sizes">
                         <h4>sizes</h4>
                             <div class="rdio-default">
@@ -108,18 +120,6 @@
                                     <input type="radio" name="sizes" id="large"  value="large">
                             </div> 
                     </div>
-                    
-                    <div class="topping">
-                        <h4>topping</h4>    
-                            <div class="rdio-default">
-                                <label for="mushrooms">mushrooms</label>
-                                <input type="radio" name="topping" id="mushrooms"  value="mushrooms"><br>
-                            </div>
-                            <div class="rdio-default">
-                            <label for="pineapples">pineapples</label>
-                                    <input type="radio" name="topping" id="pineapples"  value="pineapples">
-                            </div> 
-                    </div>
 
                     <div class="crust">
                         <h4>crust</h4>
@@ -132,11 +132,24 @@
                                         <input type="radio" name="crust" id="thick"  value="thick"><br>
                             </div>
                     </div>
+                    
+                    <div class="topping">
+                        <h4>topping</h4>    
+                            <div class="rdio-default">
+                                <label for="mushrooms">mushrooms <span class="bg-success">0.5$</span></label>
+                                <input type="radio" name="topping" id="mushrooms"  value="mushrooms"><br>
+                            </div>
+                            <div class="rdio-default">
+                            <label for="pineapples">pineapples <span class="bg-success">0.5$</span></label>
+                                    <input type="radio" name="topping" id="pineapples"  value="pineapples">
+                            </div> 
+                    </div>
+
                     <input class="submit" type="button" onclick="data()" value="submit">
                 </form>
             </div>
             <div class="delivery">
-                <p>If you want to have it delivered. Click here</p>
+                <p>If you want to have it delivered <span class="bg-danger">Extra 2$</span>. Click here</p>
             </div>
             <div class="delivery-show">
                 <div class="row">

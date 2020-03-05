@@ -80,7 +80,7 @@
     /* align-items: flex-start; */
     /* text-align: center; */
     flex-wrap: wrap;
-    padding-top: 100px;
+    padding-top: 25px;
     background-image: url(../images/backgrounds/order.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -93,11 +93,11 @@
    
 }
 .food{
-    margin-left: 200px;
+    margin-left: 250px;
     float: left;
 }
 .sizes{
-    margin-left: 100px;
+    margin-left: 250px;
     float: left;
 }
 .topping{
@@ -106,7 +106,6 @@
 }
 .crust{
     margin-left: 100px;
-    margin-right: 150px;
     float: left;
 }
 .submit{
@@ -131,6 +130,11 @@
 #new-contact input{
     background: transparent;
 }
+/* .row-pizza{
+    display: table;
+    align-items: flex-start;
+    flex-wrap: wrap;
+} */
 
 
 
